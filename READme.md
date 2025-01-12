@@ -4,5 +4,5 @@
 * conftest.py - Contains a fixture for initializing webdriver
 * Other files - requirements.txt and pytest.ini
 
-### Test running locally
-Project contains a WAP_Test.webm file showing screen recording of test running locally
+### Gist showing Test running locally
+https://gist.github.com/gds1986/d6e823bdffb6eeba3dd1759d8a308c4e
