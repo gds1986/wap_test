@@ -5,4 +5,4 @@
 * Other files - requirements.txt and pytest.ini
 
 ### Test running locally
-Project contains a WAP_Test.webm file showing screen recording of test running locally
+Project's main directory contains a `WAP_Test.webm` file showing screen recording of test running locally
