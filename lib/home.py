@@ -6,7 +6,7 @@ class HomePage:
     def __init__(self, driver):
         self.driver = driver
         self._url = "https://m.twitch.tv/"
-        self._search = (By.XPATH, "//a[@href='/directory']")
+        self._browse = (By.LINK_TEXT, "Browse")
         self.load()
 
     def load(self):
@@ -20,4 +20,4 @@ class HomePage:
             """)
 
     def click_search(self):
-        self.driver.find_element(*self._search).click()
+        self.driver.find_element(*self._browse).click()
